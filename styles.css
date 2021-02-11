@@ -90,3 +90,9 @@ body {
   background-color: #5091da;
   transform: scale(1.2)
 }
+
+@media only screen and (max-width: 767px) {
+  .about-description {
+    margin-top: 20px;
+  }
+}
