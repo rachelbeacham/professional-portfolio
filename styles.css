@@ -11,6 +11,27 @@ body {
   margin: 0 auto;
 }
 
+.intro {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: monospace;
+}
+.hide {
+  background: black;
+  overflow: hidden;
+}
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
 .landing {
   height: 100vh;
   width: 100%;
