@@ -22,7 +22,6 @@ body {
 }
 .heading {
   font-size: 30px;
-  transform: translateY(30px);
 }
 .text-blue {
  color: #5091da;
@@ -81,6 +80,11 @@ body {
 .tech-logo {
   width: 6rem;
   height: auto;
+  transition: .5s ease;
+}
+
+.tech-logo:hover {
+  transform: translateY(-20px);
 }
 .social i, i {
   margin: 1rem;
