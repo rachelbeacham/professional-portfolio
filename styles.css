@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Palanquin';
+  font-family: 'Heebo';
   margin: 0 auto;
 }
 .intro {
@@ -27,9 +27,13 @@ body {
  color: #5091da;
 }
 
+.lobster {
+  font-family: 'Lobster', cursive;
+}
+
 .name {
   font-size: 60px;
-  font-family: 'Palanquin Dark';
+  font-family: 'Lobster', cursive;
   text-transform: capitalize;
   transition: 250ms ease;
 }
