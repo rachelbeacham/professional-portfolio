@@ -6,10 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta prefix="og: http://ogp.me/ns#" property="og:image"
     content="https://github.com/rachelbeacham/professional-portfolio/blob/master/images/portfolio-thumbnail.png">
+  <link rel="icon" href="./favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Lobster&display=swap" rel="stylesheet">
+  <!--<link
     href="https://fonts.googleapis.com/css2?family=Oregano&family=Palanquin&family=Palanquin+Dark&family=Yanone+Kaffeesatz:wght@300;400&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"> -->
   <link rel="stylesheet" crossorigin="anonymous"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
@@ -18,13 +21,19 @@
 </head>
 
 <body>
-
-  <!--Intro-->
-  <section id="intro" class="intro d-flex justify-content-center align-items-center image-background">
+  <!--intro-->
+  <div class="intro w-100 h-100 d-flex justify-content-center align-items-center">
+    <div class="intro-text">
+      <h1 class="hide">
+        <span class="text">hello world.</span>
+      </h1>
+    </div>
+  </div>
+  <!--landing-->
+  <section class="landing d-flex justify-content-center align-items-center image-background">
     <div class="overlay"></div>
     <div>
       <div class="text-center">
-        <p class="my-5 heading">hello world</p>
         <p class="name my-5 heading">Rachel Beacham</p>
         <p class="heading">{ Web Developer }</p>
         <div class="row">
@@ -68,13 +77,13 @@
     <div class="container justify-content-around">
       <div class="row text-center">
         <div class="col">
-          <p class="fs-1 mt-4 text-blue">About</p>
+          <p class="fs-1 lobster mt-4 text-blue">About</p>
         </div>
       </div>
       <div class="row">
         <div class="col-sm-12 text-center col-md-6">
           <img src="images/headshot.jpeg" class="w-75 profile" alt="Rachel Beacham picture">
-          <p class="text-blue mt-2 mb-0">When I'm not coding you can find me: </p>
+          <p class="text-blue mt-2 mb-0 lobster">When I'm not coding you can find me: </p>
           <p class="text-muted mb-0">&check; At the gym or in a yoga or spin class</p>
           <p class="text-muted mb-0">&check; Watching my dog play at the dog beach</p>
           <p class="text-muted mb-0">&check; On a quest for the perfect spot to see the sunset</p>
@@ -105,7 +114,7 @@
     <div class="container text-center">
       <div class="row text-center">
         <div class="col">
-          <p class="fs-1 mt-4 text-blue">Projects</p>
+          <p class="fs-1 mt-4 lobster text-blue">Projects</p>
         </div>
       </div>
       <div class="row justify-content-evenly">
@@ -142,57 +151,57 @@
     <div class="container">
       <div class="row text-center">
         <div class="col">
-          <p class="fs-1 mt-4 text-blue">Technologies</p>
+          <p class="fs-1 mt-4 lobster text-blue">Technologies</p>
           <p>Below are the languages and technologies I have experience with, </br>
             I am always eager to learn and add more!</p>
         </div>
       </div>
       <div class="row align-items-center justify-content-center">
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="bg-white tech-logo" src="images/react-logo.png" alt="react logo">
           <p>React</p>
         </div>
-        <div class="col-6 text-center col-md-4 col-lg-3">
+        <div class="col-6 mt-3 text-center col-md-4 col-lg-3">
           <img class="tech-logo" src="images/javascript-logo.png" alt="javascript logo">
           <p>JavaScript</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/express-logo.png" alt="express logo">
           <p>Express.js</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/node-js.png" alt="node.js logo">
           <p>Node.js</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/postgresql.png" alt="postgresql logo">
           <p>PostgreSQL</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/html-logo.png" alt="html logo">
           <p>HTML</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/css-logo.png" alt="css logo">
           <p>CSS</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/bootstrap-logo.png" alt="bootstrap logo">
           <p>Bootstrap</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/github-logo.png" alt="github logo">
           <p>GitHub</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/npm-logo.png" alt="npm logo">
           <p>NPM</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/git-logo.png" alt="git logo">
           <p>Git</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3 text-center">
+        <div class="col-6 mt-3 col-md-4 col-lg-3 text-center">
           <img class="tech-logo" src="images/babel-logo.png" alt="babel logo">
           <p>Babel</p>
         </div>
@@ -204,7 +213,7 @@
     <div class="overlay"></div>
     <div>
       <div class="text-center">
-        <p class="my-3 fs-1 mt-4 text-blue">Contact</p>
+        <p class="my-3 fs-1 lobster mt-4 text-blue">Contact</p>
         <p class="my-4 fs-4">I am open and actively seeking development opportunities</p>
         <a class="my-3 text-decoration-none text-white bg-dark py-2 px-5 resume rounded" target="blank"
           href="https://drive.google.com/file/d/1hWWpN_1AkOKor_ETl9FISElFhXqjGoNB/view">Resume</a>
@@ -221,6 +230,11 @@
       </div>
     </div>
   </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"
+    integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ=="
+    crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>
