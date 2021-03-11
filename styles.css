@@ -87,6 +87,11 @@ body {
   color: #5091da;
 }
 
+.bg-about {
+  -webkit-box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+  box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.6);
+}
+
 .profile {
   border-radius: 50%;
   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
